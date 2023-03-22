@@ -16,6 +16,8 @@
 		4E454E6E29CA14C700EA7F32 /* WordGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E454E6D29CA14C700EA7F32 /* WordGameTests.swift */; };
 		4E454E7829CA14C800EA7F32 /* WordGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E454E7729CA14C800EA7F32 /* WordGameUITests.swift */; };
 		4E454E7A29CA14C800EA7F32 /* WordGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E454E7929CA14C800EA7F32 /* WordGameUITestsLaunchTests.swift */; };
+		4E454E8729CB803F00EA7F32 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E454E8629CB803F00EA7F32 /* GameViewController.swift */; };
+		4E454E8929CB818D00EA7F32 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E454E8829CB818D00EA7F32 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		4E454E7329CA14C800EA7F32 /* WordGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E454E7729CA14C800EA7F32 /* WordGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGameUITests.swift; sourceTree = "<group>"; };
 		4E454E7929CA14C800EA7F32 /* WordGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4E454E8629CB803F00EA7F32 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		4E454E8829CB818D00EA7F32 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				4E454E5F29CA14C700EA7F32 /* Assets.xcassets */,
 				4E454E6129CA14C700EA7F32 /* LaunchScreen.storyboard */,
 				4E454E6429CA14C700EA7F32 /* Info.plist */,
+				4E454E8629CB803F00EA7F32 /* GameViewController.swift */,
+				4E454E8829CB818D00EA7F32 /* ResultViewController.swift */,
 			);
 			path = WordGame;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E454E8929CB818D00EA7F32 /* ResultViewController.swift in Sources */,
+				4E454E8729CB803F00EA7F32 /* GameViewController.swift in Sources */,
 				4E454E5B29CA14C600EA7F32 /* ViewController.swift in Sources */,
 				4E454E5729CA14C600EA7F32 /* AppDelegate.swift in Sources */,
 				4E454E5929CA14C600EA7F32 /* SceneDelegate.swift in Sources */,
