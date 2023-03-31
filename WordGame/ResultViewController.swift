@@ -8,9 +8,13 @@
 import UIKit
 
 class ResultViewController: UIViewController {
+    var finalScore = 0
 
+    @IBOutlet weak var score: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        score.text = String(finalScore)
 
         // Do any additional setup after loading the view.
     }
